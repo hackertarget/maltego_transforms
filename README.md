@@ -1,5 +1,7 @@
 A local transform for Maltego which makes use of the [HackerTarget API](https://hackertarget.com/ip-tools/) for DNS Recon
 
+![Maltego Transform](https://hackertarget.com/images/maltego-hackertarget.gif)
+
 Installation
 ------------
 1. This transform was developed and tested with Python 2.7 on Ubuntu Linux. You need python and the requests module.
@@ -7,12 +9,13 @@ Installation
 
 Configuration
 -------------
-1. Clone this repository to a local directory (referred to as the 'working directory' in Maltego parlance).
-2. Obtain an [HackerTarget API Key](https://hackertarget.com/scan-membership/) API key. Free users get 200 requests per day against the API (no key required).
-3. Place the API key in the APIKEY variable in each transform.
-4. Import HackerTarget-config-v1.mtz as a Maltego configuration file
-5. Set the working directory of each transform (which should be set to /opt/Maltego_HackerTarget by default) to the working directory from step 1.
-6. Ensure each transform has the proper Python path.
+1. Clone this repository to a local directory (known as the 'working directory' in Maltego).
+2. For the configuration file to work out of the box, move **maltego_transforms** to **/opt/Maltego_HackerTarget**. If paths are different you can update from the manage transform screen.
+3. Obtain an [HackerTarget API Key](https://hackertarget.com/scan-membership/) API key. Free users get 200 requests per day against the API (no key required).
+4. Place the API key in the APIKEY variable in each transform.
+5. Import HackerTarget-config-v1.mtz as a Maltego configuration file
+6. Set the working directory of each transform (which should be set to /opt/Maltego_HackerTarget by default) to the working directory from step 1.
+7. Ensure each transform has the proper Python path.
 
 Tips
 ----
