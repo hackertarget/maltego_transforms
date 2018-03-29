@@ -1,4 +1,4 @@
-A local transform for Maltego which makes use of the HackerTarget API for DNS Recon
+A local transform for Maltego which makes use of the [HackerTarget API](https://hackertarget.com/ip-tools/) for DNS Recon
 
 Installation
 ------------
