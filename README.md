@@ -14,7 +14,7 @@ Configuration
 3. Obtain an [HackerTarget API Key](https://hackertarget.com/scan-membership/) API key. Free users get 200 requests per day against the API (no key required).
 4. Place the API key in the APIKEY variable in each transform.
 5. Import HackerTarget-config-v1.mtz as a Maltego configuration file
-6. Set the working directory of each transform (which should be set to /opt/Maltego_HackerTarget by default) to the working directory from step 1.
+6. Confirm the working directory of each transform (which should be set to /opt/Maltego_HackerTarget by default) - this comes from mtz file.
 7. Ensure each transform has the proper Python path.
 
 Tips
