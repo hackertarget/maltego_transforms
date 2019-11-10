@@ -21,3 +21,8 @@ Tips
 ----
 - The transforms work on Domain, NS Server and IP address entities only. You may need to resolve a DNSName entity to a domain before running the find hosts transform. Resolve the Domain to NS Server to run the DNSseach.
 - Depending on your Maltego license you will be restricted by the number of entities returned by the transforms. The find hosts can return thousands of entries on the right query. 
+
+About HackerTarget Pty Ltd
+----
+- [HackerTarget](https://hackertarget.com) provides hosted open source tools and network intelligence to help organizations with attack surface discovery and identification of security vulnerabilities.
+- Expensive appliances with flashing blue lights are not always the best solution. Through promotion of open source security solutions we make organisations big and small better at protecting what matters to them.
